@@ -25,8 +25,7 @@ public class PlayerManager : MonoBehaviour
             manMovementController.TurnToPointer(deltaPos);
             manMovementController.Run(deltaPos);
             manMovementController.SetRunSpeed(speed);
-
-            manAnimationController.StartRunning(deltaPos);
+            manAnimationController.StartRunning();
             manAnimationController.SetRunSpeed(speed);
         }
     }

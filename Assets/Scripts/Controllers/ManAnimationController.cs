@@ -1,4 +1,3 @@
-
 using UnityEngine;
 
 
@@ -11,7 +10,7 @@ public class ManAnimationController : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    public void StartRunning(Vector2 deltaPos)
+    public void StartRunning()
     {
         animator.SetBool("Run", true);
     }
