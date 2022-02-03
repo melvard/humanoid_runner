@@ -34,7 +34,7 @@ public class TouchManager : MonoBehaviour
             return CurrentPosition - StartPosition;
         }
     }
-    // Update is called once per frame
+
     void Update()
     {
         
